@@ -1,9 +1,17 @@
 # event-management-project
 
-Project made using python and flask.
+Project created using python and flask.
+
 
 Installing requirements:
 `pip install -r requirements.txt`
+
+Running tests:
+`python test.py`
+
+Running the application:
+`python main.py`
+
 
 Examples of requests:
 
