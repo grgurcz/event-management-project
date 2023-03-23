@@ -6,11 +6,16 @@ Project created using python and flask.
 Installing requirements:
 `pip install -r requirements.txt`
 
+Running the application:
+`python main.py`
+
 Running tests:
 `python test.py`
 
-Running the application:
-`python main.py`
+Notes:
+- the application must be run at least once before testing, otherwise database tables won't exist
+- database is cleared every time the application starts, to stop this just comment out line 233 of main.py: `db.drop_all()`
+- there are no endpoints for managing users, events and organizations, some sample entries are created in the main function for showcase purposes
 
 
 Examples of requests:
