@@ -8,6 +8,8 @@ Installing requirements:
 
 Running the application:
 `python main.py`
+- API should be available on http://localhost:5000/
+- to change default host/port combination, supply `host` and `port` parameters to `app.run()` function call
 
 Running tests:
 `python test.py`
